@@ -26,8 +26,8 @@ export class Imdb {
             method: "POST",
             headers: {
                 "X-Fern-Language": "JavaScript",
-                "X-Fern-SDK-Name": "fernstart",
-                "X-Fern-SDK-Version": "0.0.57",
+                "X-Fern-SDK-Name": "@suelje/fernstart",
+                "X-Fern-SDK-Version": "0.0.61",
             },
             contentType: "application/json",
             body: await serializers.CreateMovieRequest.jsonOrThrow(request, { unrecognizedObjectKeys: "strip" }),
@@ -77,8 +77,8 @@ export class Imdb {
             method: "GET",
             headers: {
                 "X-Fern-Language": "JavaScript",
-                "X-Fern-SDK-Name": "fernstart",
-                "X-Fern-SDK-Version": "0.0.57",
+                "X-Fern-SDK-Name": "@suelje/fernstart",
+                "X-Fern-SDK-Version": "0.0.61",
             },
             contentType: "application/json",
             timeoutMs: 60000,

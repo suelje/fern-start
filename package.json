@@ -1,6 +1,6 @@
 {
-    "name": "fernstart",
-    "version": "0.0.57",
+    "name": "@suelje/fernstart",
+    "version": "0.0.61",
     "private": false,
     "repository": "https://github.com/suelje/fern-start",
     "main": "./index.js",
