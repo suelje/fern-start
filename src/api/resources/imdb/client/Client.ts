@@ -27,7 +27,7 @@ export class Imdb {
             headers: {
                 "X-Fern-Language": "JavaScript",
                 "X-Fern-SDK-Name": "fernstart",
-                "X-Fern-SDK-Version": "0.0.53",
+                "X-Fern-SDK-Version": "0.0.57",
             },
             contentType: "application/json",
             body: await serializers.CreateMovieRequest.jsonOrThrow(request, { unrecognizedObjectKeys: "strip" }),
@@ -78,7 +78,7 @@ export class Imdb {
             headers: {
                 "X-Fern-Language": "JavaScript",
                 "X-Fern-SDK-Name": "fernstart",
-                "X-Fern-SDK-Version": "0.0.53",
+                "X-Fern-SDK-Version": "0.0.57",
             },
             contentType: "application/json",
             timeoutMs: 60000,
